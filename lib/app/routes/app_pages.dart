@@ -20,10 +20,10 @@ class AppPages {
       binding: HomeBinding(),
     ),
     GetPage(
-      name: _Paths.chat,
-      page: () => const ChatView(),
-      binding: ChatBinding(),
-    ),
+        name: _Paths.chat,
+        page: () => const ChatView(),
+        binding: ChatBinding(),
+        transition: Transition.downToUp),
     GetPage(
       name: _Paths.history,
       page: () => const HistoryView(),
